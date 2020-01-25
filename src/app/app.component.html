@@ -1,0 +1,12 @@
+
+
+  <div class="card-container" *ngFor="let pictures of data">
+      <div class="card" target="_blank" rel="noopener">
+          <div style="margin:20px">{{pictures.id}}</div>
+          <div><img src= "{{pictures.img}}" style="width: 100px; height: 45px;"></div>
+      </div>
+
+  </div>
+
+  
+<router-outlet></router-outlet>
